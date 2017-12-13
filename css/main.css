@@ -1,0 +1,98 @@
+html {
+  font: 100%/1.15 sans-serif;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  }
+  
+
+body {
+  color: #000;
+  background-color: #CCC;
+  margin: 0;
+  }
+  
+
+
+
+/* - - - figures - - - */
+
+figure img {
+	border: 1em solid #000;
+	margin: 1em;
+  }
+
+
+figcaption.credit {
+  Margin-top: -0.5em;
+	text-align: center;
+	}
+
+
+/* - - - flexible images - - - */
+img {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+	}
+	
+/* - - - text - - - */	
+
+h1 {
+  margin-top: 1em;
+  text-align: center;
+  }
+  
+h2 {
+  padding-top: .25em;
+  padding-bottom: .25em;
+  background: #999;
+  text-align: center;
+  }
+
+h3 {
+  padding: 0;
+  text-align: center;
+  }
+  
+  
+	
+	/* --- wider screen breakpoints --- */
+
+
+@media (min-width: 20em) {
+
+h1 {
+  font-size: 1.5em;
+  }
+
+h2 {
+  padding-top: .1em;
+  padding-bottom: .1em;
+  font-size: 1em;
+  }
+  
+figcaption.credit {
+  font-size: .6em;
+	}
+
+figure img {
+	border: .5em solid #000;
+	margin-top: .5em;
+  }
+
+
+@media (min-width: 48em) {
+h1 {
+  font-size: 4em;
+  }
+h2 {
+  font-size: 2em;
+  }
+h3 {
+  font-size: 3em;
+  }
+figcaption.credit {
+  font-size: 1.5em;
+	}
+}
+
